@@ -1,0 +1,42 @@
+
+.components > * {
+  margin: 20px 0;
+}
+.add-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.add-items-input{
+  height: 2rem;
+  width: 20rem;
+  padding: 10px;
+  border-radius: 0.5rem;
+  
+}
+button {
+  width: 5rem;
+  height: 2rem;
+}
+input:focus {
+  outline: none;
+}
+.added-item {
+  display: flex;
+  width: 20rem;
+  height: 2rem;
+  padding: 10px;
+  background-color: hsl(36, 100%, 90%);
+  border-radius: 0.5rem;
+  gap: 10px;
+  align-items: center;
+}
+.completed {
+  width: 20rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(36, 194, 36);
+}
